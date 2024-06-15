@@ -8,7 +8,7 @@ int main(){
         while(col<=row){//No of row's ke equal print krna hai *, col ke andar.
             cout<<"* ";// ye while loop no of rows pe depend kr rha hai.
             col++;
-        }
+        } 
         cout<<endl;
         row++;
     }
