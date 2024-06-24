@@ -16,3 +16,8 @@ int main(){
 // 55
 
 // === Code Execution Successful ===
+// /tmp/RHsM1KP5Kk.o
+// 70
+// 2485
+
+// === Code Execution Successful ===
