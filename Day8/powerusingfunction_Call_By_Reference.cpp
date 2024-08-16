@@ -17,3 +17,9 @@ int main(){
     int ans =  power(&c,&d);
     cout<<ans;
 }
+// /tmp/9MR2w0cIZJ.o
+// Enter the value of a: 5
+// Enter the value of b: 4
+// 625
+
+// === Code Execution Successful ===
