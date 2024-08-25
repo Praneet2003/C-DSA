@@ -9,7 +9,7 @@ int main(){
     cout<<"Pre-Decrement : "<<--i1<<endl;
     int a =10,b=1;
     if(++a){
-         cout<<b;
+        cout<<b;
     }else{
         cout<<++b;
     }
