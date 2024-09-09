@@ -3,15 +3,16 @@ using namespace std;
 class Node{
     public:
     int data;
-    Node* next;
+    Node *next;
     //constructor
     Node(int n){
+        //constructor: it is a special methord , which is called automatically whenever an object is created.
         this -> data=n;
         this -> next = NULL;
     }
 };
 int main(){
-    Node* node1 = new Node(10);
+    Node *node1 = new Node(10);
     cout<<node1->data<<endl;
     cout<<node1->next<<endl;
     return 0;
