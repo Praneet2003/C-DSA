@@ -8,14 +8,6 @@ int main(){
     // cin>>arr;
     cout<<"The string value is: "<<s<<endl;
     cout<<"The char array value is: "<<arr<<endl;
-// }
-// #include<iostream>
-// #include<cmath>
-
-// using namespace std;
-
-// int main()
-// {
 	char s1[]="hello world";	
 	string r="hello world";
 	
