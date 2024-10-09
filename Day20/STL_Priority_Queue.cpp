@@ -7,8 +7,8 @@ int main(){
     priority_queue<int,vector<int>, greater<int>>mini;
     maxi.push(1);
     maxi.push(20);
-    maxi.push(13);
     maxi.push(89);
+    maxi.push(13);
     int n = maxi.size();
     cout<<"The size of priority_queue is: "<<n<<endl;
     for(int i=0;i<n;i++){
