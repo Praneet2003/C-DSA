@@ -27,6 +27,7 @@ class LinkedList{
         if(head==nullptr){
             head = newnode;
             // newnode->next=head;
+            return;//retunr krna necessary hai. jisse loop se if statement se bahar nikal paye.
         }else{
             Node*temp =head;
             while(temp->next!=nullptr){
