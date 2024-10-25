@@ -73,14 +73,14 @@ class BST{
         }
         return 0;
     }
-    void deleteNode(int x){
-        if(search(x)){
-            cout<<"value Deleted."<<endl;
-            delete temp;
-        }else{
-            cout<<"Value not found."<<endl;
-        }
-    }
+    // void deleteNode(int x){
+    //     if(search(x)){
+    //         cout<<"value Deleted."<<endl;
+    //         delete temp;
+    //     }else{
+    //         cout<<"Value not found."<<endl;
+    //     }
+    // }
     void inorder(){
         cout<<"Inorder Traversal: ";
         inorderRec(root);
@@ -92,6 +92,9 @@ class BST{
             cout<<node->data<<" ";
             inorderRec(node->right);
         }
+    }
+    void data(){
+        cout<<temp->data;
     }
 };
 int main(){
@@ -108,7 +111,7 @@ int main(){
     }else{
         cout<<"! sorry we could not found the element"<<endl;
     }
-    bt.deleteNode(2);
+    // bt.deleteNode(2);
     // bt.inorder();
     // bt.deleteNode(2);
     if(bt.search(2)){
@@ -116,4 +119,5 @@ int main(){
     }else{
         cout<<"! sorry we could not found the element"<<endl;
     }
+    bt.data();
 }
