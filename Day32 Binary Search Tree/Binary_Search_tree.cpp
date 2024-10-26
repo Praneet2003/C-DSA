@@ -42,6 +42,7 @@ class BinarySearchTree{
             }
         }
     }
+    
     void inorder(){
         cout<<"Inorder Travesal: "<<endl;
         inorderRec(root);
