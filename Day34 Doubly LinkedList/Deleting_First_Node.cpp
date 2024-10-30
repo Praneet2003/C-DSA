@@ -83,7 +83,7 @@ class LinkedList{
     void print(){
         Node* temp=head;
         while(temp!=nullptr){
-            cout<<temp->data<<" ";
+            cout<<temp->data<<"->";
             temp=temp->next;
         }
         cout<<endl;
@@ -115,4 +115,5 @@ int main(){
     l.insertAtPos(2200,12);
     l.deleteFirstNode();
     l.print();
+    cout<<"Null";
 }
