@@ -33,7 +33,7 @@ void merge(int *arr,int s,int e){
     while(index2<len2){
         arr[mainArrayIndex++]=second[index2++];
     }
-    //deleting the dynamicaaly allocated memory.
+    //deleting the dynamically allocated memory.
     delete []first;
     delete []second;
 }
