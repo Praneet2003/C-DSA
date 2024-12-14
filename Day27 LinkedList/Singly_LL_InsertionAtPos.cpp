@@ -23,18 +23,18 @@ class LinkedList{
     void insertATPos(int n,int pos){
         Node* newnode = new Node(n);
         if(pos==1){
-            newnode->next=head;
-            head = newnode;
-            return ;
+            newnode->next=head;//pehle jaha head point kr rha tha ab waha pe newnode -> next point krega.
+            head = newnode;//aur ab head newnode ko point krega.
+            return;
         }
-        Node *temp = head;
-        for(int i=0;i<pos-1 && temp!=nullptr;i++){
-            temp = temp->next;
+        Node *temp = head;//ek temprorary node, for traversing purpose.
+        for(int i=0;i<pos-1 && temp!=nullptr;i++){//i start 0 se ho rha hai isliye i<pos -1 tk hai.
+            temp = temp->next;//temp ko aaghe bhejte jao jb tk wo pos tk nhi pahuch jaye.
         }
-        if(temp->next = nullptr){
+        if(temp->next = nullptr){//last node pe pahuch gya.
             InsertAtEnd(n);
         }
-        if(temp==nullptr){
+        if(temp==nullptr){//linked list ke size se bahar aagya.
             cout<<"The inserted position is out of bond!"<<endl;
             return;
         }
