@@ -17,7 +17,7 @@ int main(){
             int j=1;
             int h = index;
             while(hashtable[index]!=-1){
-                index = (h+j*j)%size;
+                index = (h+j*j)%size;// calculating index in each iteration
                 j++;
             }
             hashtable[index]=key;
