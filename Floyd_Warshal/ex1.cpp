@@ -16,7 +16,7 @@ void flyodwarshall(int graph[MAX_N][MAX_N]){
             for(int j=0;j<MAX_N;j++){
                 //checking the conditions
                 if(dist[i][k]!=INF && dist[k][j]!=INF && dist[i][k]+dist[k][j]<dist[i][j]){
-                    dist[i][j]=dist[i][k]+dist[k][j];
+                    dist[i][j]=dist[i][k]+dist[k][j];// updates only if the value is smaller than the original value
                 }
             }
         }
