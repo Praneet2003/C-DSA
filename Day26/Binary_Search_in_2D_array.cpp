@@ -8,6 +8,7 @@ bool BinarySearch(vector<vector<int>>& v, int target){
     int start =0;
     int end = row*col-1;
     int mid = start+(end-start)/2;
+    // binary search condition
     while(start<=end){
         int element = v[mid/col][mid%col];
         if(element==target){
