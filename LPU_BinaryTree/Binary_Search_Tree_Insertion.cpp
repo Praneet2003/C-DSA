@@ -1,3 +1,4 @@
+
 // /BST
 // You are using GCC
 #include <iostream>
@@ -31,13 +32,13 @@ void insert(int value) {
 
 // Recursive function to insert a new value
 void insertRec(Node* node, int value) {
-    if (value < node->data) {
+    if (value < node->data) {//if value is smaller then create node in left side
         if (node->left == NULL) {
             node->left = new Node(value);
         }else{
             insertRec(node->left, value);
         }
-    }else{
+    }else{// if value is greater than root node then create node in right side
         if (node->right == NULL) {
             node->right = new Node(value);
         }else{
