@@ -8,7 +8,7 @@ class MINHeap{
         size++;
         int i=size;
         arr[size]=val;
-        while(i>1){
+        while(i>1){// for 1 based indexing 
             int parent = i/2;
             if(arr[parent]>arr[i]){
                 swap(arr[parent],arr[i]);
