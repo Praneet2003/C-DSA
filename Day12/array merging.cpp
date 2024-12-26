@@ -1,3 +1,4 @@
+// merge two arrays
 #include<iostream>
 using namespace std;
 int mergeArray(int n1,int arr1[],int n2,int arr2[],int mergedArray[]){
