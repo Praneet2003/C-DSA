@@ -68,15 +68,7 @@ void quickSort(int arr[], int low, int high){
     quickSort(arr,low,p-1);
     quickSort(arr,p+1,high);
 }
-
-
-// int main() {
-//     int n;
-//     cin >> n;
-
 int main(){
-    // float arr[5]={32.5 ,31.0, 30.5, 29.5, 33.0};
-    // int n =5;
     int n;
     cin>>n;
     int arr[n];
