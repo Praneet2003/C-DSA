@@ -12,7 +12,7 @@ void sum_arr(int arr[][3]){
         cout<<"col:"<<j<<sum<<endl;
         sum=0;
     }
-}
+}//
 int main(){
     int arr[3][3];
     for(int i=0;i<3;i++){
